@@ -26,6 +26,16 @@
 				<p>
 					Non-Convex Solver
 				</p>
+			</div>
+
+			<div id="about">
+				<p>
+					In this work, I developed and implemented a new solver for non-convex optimization problems. This is a primal-dual augmented-Lagrangian interior-point solver. It implements key algorithms employed by <a class="four" href="https://coin-or.github.io/Ipopt/index.html">Ipopt</a> to handle inequality constraint and a novel augmented-Lagrangian formulation and update to handle equality constraints. The primary advantage of this solver is its ability to handle complementarity constraints.
+				</p>
+				<p>
+					The solver can currently solve 41/41 benchmark problems (small size) from the <a class="one" href="http://www.cuter.rl.ac.uk/Problems/mastsif.shtml">CUTEst</a> problem set and has been used to solve difficult contact-implicit trajectory optimization problems. The Julia implementation is available on <a class="four" href="https://github.com/thowell/non-convex_solver">Github</a>.
+				</p>
+			</div>
 
 	</body>
 
