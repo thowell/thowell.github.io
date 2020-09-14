@@ -1,0 +1,103 @@
+body {
+	background-color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+a {
+
+}
+
+.one {
+	color: black;
+	text-decoration: none;
+}
+
+.two {
+	color: black;
+	text-decoration: none;
+}
+
+.three {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.four {
+	color: black;
+	text-decoration: underline;
+}
+
+.image_size {
+	width="250px";
+}
+
+
+
+#header {
+	padding: 10px 0px 0px 0px;
+	text-align: left;
+	font-weight: bold;
+}
+
+
+#container {
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#nav{
+	text-align: left;
+	word-spacing: 25px;
+	font-size: 12px;
+}
+
+
+#main {
+	float: center;
+	text-align: center;
+
+}
+
+#about {
+	text-align: left;
+	float: center;
+}
+
+#footer {
+	clear: both;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 10px;
+}
+
+#projectlist {
+	text-align: left;
+	list-style-type: none;
+	line-height: 200%;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+ float: left;
+ width: 23.5%;
+ padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
