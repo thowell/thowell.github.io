@@ -16,7 +16,7 @@
 			<div id="nav">
 				<a class="three" href="../projects.html">Projects</a>
 				<a class="one" href="../research.html">Research</a>
-				<a class="one" href="../taylorhowell_CV.pdf">CV</a>
+				<a class="one" href="../documents/cv.pdf">CV</a>
 				<a class="one" href="../travel.html">Travel</a>
 				<a class="one" href="../log.html">Log</a>
 				<a class="one" href="../about.html">About</a>
@@ -35,11 +35,10 @@
 
 		<div id="about">
 			<p>
-				This is a motion-planning project to perform a "ball-in-cup" task using a seven-degree-of-freedom robotic arm. Unlike reinforcement-learning approaches for this task, I model the arm and the ball using discrete Lagrangian mechanics and use complementarity constraints to encode the impact imparted by the string that connects the end effector to the ball.
-			</p>
-
-			<p>
-				An open-source, Julia implementation is available	<a class="four" href="https://github.com/thowell/contact_implicit_trajectory_optimization/tree/master/examples">here</a>.
+				This is a motion-planning experiment to perform a "ball-in-cup" task using a seven-degree-of-freedom robotic arm. Unlike reinforcement-learning approaches for this task, I model the arm and the ball using discrete Lagrangian mechanics and use complementarity constraints to encode the impact imparted by the string that connects the end effector to the ball. I solve the resulting large nonlinear program with SNOPT.
+				<p>
+					My old scripts (needs work!) for generating the motion plan and animation is available	<a class="four" href="https://github.com/thowell/DirectMotionPlanning/tree/main/examples/development/kuka_ball_in_cup">here</a>.
+				</p>
 			</p>
 
 		</div>

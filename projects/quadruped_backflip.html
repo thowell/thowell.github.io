@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Taylor Howell</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+	</head>
+	<body>
+		<div id="container">
+
+			<div id="header">
+				<p><a class="one" href="../index.html">Taylor Howell</a></p>
+			</div>
+
+
+			<div id="nav">
+				<a class="three" href="../projects.html">Projects</a>
+				<a class="one" href="../research.html">Research</a>
+				<a class="one" href="../documents/cv.pdf">CV</a>
+				<a class="one" href="../travel.html">Travel</a>
+				<a class="one" href="../log.html">Log</a>
+				<a class="one" href="../about.html">About</a>
+
+			</div>
+			<div id="main">
+
+				<br/>
+				<p>
+					Quadruped Backflip
+				</p>
+
+				<p>
+					<img src="https://raw.githubusercontent.com/thowell/DirectMotionPlanning/main/examples/animations/quadruped_backflip.gif" style="width:400px"></img>
+				</p>
+			</div>
+
+			<div id="about">
+				<p>
+					Inspired by Boston Dynamics' Atlas performing <a class="four" href="https://www.youtube.com/watch?v=_sBBaNYex3E">parkour</a>, I decided to explore contact-implicit trajectory optimization for generating similarly dynamic behaviors.
+					However, unlike Boston Dynamics' use of simplifed dynamics and full kinematics, I model my planar quadruped using first principles (i.e., Lagrangian mechanics) and consider full dynamics which enables the optimizer to automatically generate agile motions.
+					Additionally, the contact sequence and forces are automatically generated.
+				</p>
+
+				<p>
+					My Julia implementation is available <a class="four" href="https://github.com/thowell/DirectMotionPlanning/tree/main/examples/contact_implicit/quadruped_backflip.jl">here</a>.
+				</p>
+
+			</div>
+	</body>
+
+</html>
