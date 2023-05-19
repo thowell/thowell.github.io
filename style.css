@@ -1,32 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 body {
-	background-color: white;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	background-color: black;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 }
 
-a {
-
+p {
+	color: white;
 }
+
+a {}
 
 .one {
-	color: black;
+	color: white;
+	font-size: 14px;
 	text-decoration: none;
 }
 
 .two {
-	color: black;
+	color: white;
+	font-size: 14px;
 	text-decoration: none;
 }
 
 .three {
-	color: black;
+	color: white;
+	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .four {
-	color: black;
-	text-decoration: underline;
+	color: red;
+	font-size: 14px;
+	text-decoration: none;
 }
 
 .image_size {
@@ -43,14 +52,14 @@ a {
 
 
 #container {
-	background-color: white;
+	background-color: black;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 
-#nav{
+#nav {
 	text-align: left;
 	word-spacing: 25px;
 	font-size: 12px;
@@ -86,22 +95,22 @@ a {
 }
 
 pre code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	display: block;
+	padding: 20px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
- float: left;
- width: 48%;
- padding: 5px;
+	float: left;
+	width: 48%;
+	padding: 5px;
 }
 
 /* Clear floats after image containers */
 .row::after {
- content: "";
- clear: both;
- display: table;
+	content: "";
+	clear: both;
+	display: table;
 }
