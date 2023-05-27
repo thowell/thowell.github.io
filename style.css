@@ -2,8 +2,8 @@
 
 body {
 	background-color: black;
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-family: 'Roboto', Helvetica, Arial;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -15,26 +15,26 @@ a {}
 
 .one {
 	color: white;
-	font-size: 14px;
+	font-size: 16x;
 	text-decoration: none;
 }
 
 .two {
 	color: white;
-	font-size: 14px;
+	font-size: 16x;
 	text-decoration: none;
 }
 
 .three {
 	color: white;
-	font-size: 14px;
+	font-size: 16x;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .four {
 	color: red;
-	font-size: 14px;
+	font-size: 16x;
 	text-decoration: none;
 }
 
@@ -61,8 +61,8 @@ a {}
 
 #nav {
 	text-align: left;
-	word-spacing: 25px;
-	font-size: 12px;
+	word-spacing: 32px;
+	font-size: 18px;
 }
 
 
