@@ -114,3 +114,7 @@ pre code {
 	clear: both;
 	display: table;
 }
+
+img {
+	border-radius: 7.5px;
+}
