@@ -3,3 +3,10 @@
 .vs/
 # Exclude macOS folder attributes
 .DS_Store
+
+# jekyll blog
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
