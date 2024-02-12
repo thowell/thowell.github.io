@@ -20,7 +20,6 @@
 
 title: blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Musings on my latest adventures...
 baseurl: /blog # the subpath of your site, e.g. /blog
 url: https://thowell.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: taylorhowell
@@ -35,6 +34,8 @@ source: _jekyll
 destination: blog
 permalink: :title.html
 
+# Google Analytics
+google_analytics: G-GGKKY50ECW
 
 # Exclude from processing.
 # The following items will not be processed, by default.
